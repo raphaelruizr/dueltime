@@ -10,27 +10,27 @@ const ImagemPosicao = () => {
         {
         posicao: 'hc',
         nome: 'Hard Carry',
-        imagem: 'Imagens/r1.png'
+        imagem: 'imagens/r1.png'
         },
         {
         posicao: 'mid',
         nome: 'Mid Lane',
-        imagem: 'Imagens/r2.png'
+        imagem: 'imagens/r2.png'
         },
         {
         posicao: 'off',
         nome: 'Off Lane',
-        imagem: 'Imagens/r3.png'
+        imagem: 'imagens/r3.png'
         },
         {
         posicao: 'sup4',
         nome: 'Suporte',
-        imagem: 'Imagens/r4.png'
+        imagem: 'imagens/r4.png'
         },
         {
         posicao: 'sup5',
         nome: 'Suporte Dedicado',
-        imagem: 'Imagens/r5.png'
+        imagem: 'imagens/r5.png'
         }
         ]
     
