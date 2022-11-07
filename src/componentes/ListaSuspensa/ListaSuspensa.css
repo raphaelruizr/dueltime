@@ -1,0 +1,20 @@
+.lista-suspensa label {
+    display: block;
+    /*quero um display de bloco pra baixo*/
+    color: white;
+    margin-bottom: 8px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.lista-suspensa select {
+    background-color: #25282acc;
+    color: white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    /*botei 100% pois quem vai ditar o tamanho dele sera o componente pai*/
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+    /*truque para a bordar nao ficar saindo da tela, levar em consideracao o tamanho de tudo*/
+}

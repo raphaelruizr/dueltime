@@ -1,0 +1,25 @@
+.selecaoimagens {
+    max-width: 100%;
+    text-align: center;
+    display: flex; 
+}
+.selecaoimagens label > input{
+    visibility: hidden;
+}
+.selecaoimagens label > input + img{
+    width: 90%;
+    cursor:pointer;
+    border:2px solid rgba(238, 238, 238, 0.855);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    margin-top: 10px;
+    border-radius:10px;
+    opacity: 0.1;
+}
+.selecaoimagens label > input:hover + img {
+    opacity: 0.9;
+}
+.selecaoimagens label > input:checked + img{
+    border:4px solid rgb(153, 153, 153);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    opacity: 1;
+}
